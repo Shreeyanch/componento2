@@ -249,7 +249,7 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import Loyaltycard1 from "./pages/Loyaltycard1";
+import Loyaltycard from "./pages/Loyaltycard1";
 import Reservation from "./pages/Reservation";
 // import LoyaltyCard2 from "./pages/Loyaltycard2";
 import HomePageStore from "./pages/HomePageStore";
@@ -259,7 +259,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/loyalty1" element={<Loyaltycard1 />} />
+        <Route path="/loyalty1" element={<Loyaltycard />} />
         <Route path="/reservation" element={<Reservation />} />
         <Route path="/hps" element={<HomePageStore />} />
         <Route path="/lp" element={<LoginPage />} />

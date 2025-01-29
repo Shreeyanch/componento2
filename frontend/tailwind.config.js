@@ -25,7 +25,7 @@ export default {
         white: "#fff",
         seagreen: {
           100: "#016e49",
-          200: "rgba(1, 110, 73, 0.31)",
+          200: "rgba(1, 110, 73, 0.61)",
         },
         whitesmoke: {
           100: "#f1f4f7",
