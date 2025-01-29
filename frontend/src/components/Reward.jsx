@@ -147,7 +147,7 @@
 import { useState, useCallback, useEffect } from "react";
 import Description from "./Description";
 import PortalPopup from "./PortalPopup";
-import MyRewards from "./Myrewards"; // Import MyRewards component
+import MyRewards from "./MyRewards";
 import PropTypes from "prop-types";
 
 const Reward = ({ className = "", onClose }) => {

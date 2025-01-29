@@ -250,13 +250,21 @@ import {
 } from "react-router-dom";
 
 import Loyaltycard1 from "./pages/Loyaltycard1";
+import Reservation from "./pages/Reservation";
 // import LoyaltyCard2 from "./pages/Loyaltycard2";
+import HomePageStore from "./pages/HomePageStore";
+import LoginPage from "./pages/LoginPage";  
 
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/loyalty1" element={<Loyaltycard1 />} />
+        <Route path="/reservation" element={<Reservation />} />
+        <Route path="/hps" element={<HomePageStore />} />
+        <Route path="/lp" element={<LoginPage />} />
+
+
         {/* <Route path="/loyalty2" element={<LoyaltyCard2 />} /> */}
 
 
